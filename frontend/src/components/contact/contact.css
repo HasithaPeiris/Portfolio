@@ -1,0 +1,148 @@
+:root {
+    --primary-color: #3F81BE;
+    --secondary-color: #013463;
+    --accent-color: #F89923;
+}
+
+.c{ 
+    height: 100vh;
+    position: relative;
+    margin-top: 100px;
+    /* background-color: #f6f6f6; */
+}
+
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: var(--accent-color);
+    position: absolute;
+}
+
+.c-wrapper{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-title{
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    font-weight: 300;
+    width: 70%;
+}
+
+.c-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: #f6f6f6;
+    border-bottom: 2px solid var(--accent-color);
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+button{
+    border: none;
+    padding: 16px 48px;
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 480px){
+
+    .c{
+        margin-top: 50px;
+    }
+    .c-wrapper{
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .c-bg{
+        width: 10px;
+    }
+
+    .c-left{
+        padding-left: 20px;
+    }
+
+    .c-title{
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .c-info-item{
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .c-desc{
+        display: none;
+    }
+
+    .c-right{
+        padding-left: 20px;
+    }
+
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
