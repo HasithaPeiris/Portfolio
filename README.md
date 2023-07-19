@@ -1,0 +1,1 @@
+# This is a demo portfolio website that I made to learn new technologies like node.js and react.
