@@ -14,8 +14,8 @@ function About() {
         </div>
         <div className="a-right">
             <h1 className="a-title">About Me</h1>
-            <p className="a-sub">Hello! I'm Hasitha Peiris</p>
-            <p className="a-desc">Test description - Hello! I'm a professional graphic designer having rich experience in Logo Design. My main goal is to make my customers delighted with creative designs. Let's join the world of creativity!</p>
+            <p className="a-sub">Hello! I'm a professional graphic designer</p>
+            <p className="a-desc">Hello! I'm a professional graphic designer having rich experience in Logo Design. My main goal is to make my customers delighted with creative designs. Let's join the world of creativity!</p>
             <div className="a-award">
                 <img src={Award} alt="" className="a-award-img" />
                 <div className="a-award-texts">
